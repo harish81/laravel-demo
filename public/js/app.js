@@ -2064,6 +2064,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "MoreExample",
@@ -38776,9 +38777,18 @@ var render = function() {
           "inertia-link",
           {
             staticClass: "btn btn-secondary",
-            attrs: { "preserve-state": "", href: "/more-example?laraimportant" }
+            attrs: { href: "/more-example?laraimportant" }
           },
           [_vm._v("important message")]
+        ),
+        _vm._v(" "),
+        _c(
+          "inertia-link",
+          {
+            staticClass: "btn btn-secondary",
+            attrs: { href: "/more-example?laramulti" }
+          },
+          [_vm._v("multiple messages")]
         )
       ],
       1

@@ -121,6 +121,12 @@ class TodoController extends Controller
                 ->important();
             return redirect()->route('toast.more');
         }
+        if($request->has('laramulti')){
+            flash()->success('this is good success!')
+                ->error('This is good error')
+                ->warning('This is good warning');
+            return redirect()->route('toast.more');
+        }
 
         return Inertia::render('MoreExample');
     }

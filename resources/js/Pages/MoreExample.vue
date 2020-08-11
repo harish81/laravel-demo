@@ -10,7 +10,8 @@
             <h1>Use with laracast flash</h1>
             <inertia-link class="btn btn-secondary" href="/more-example?larasuccess">success message</inertia-link>
             <inertia-link class="btn btn-secondary" href="/more-example?laraerror">error message</inertia-link>
-            <inertia-link preserve-state class="btn btn-secondary" href="/more-example?laraimportant">important message</inertia-link>
+            <inertia-link class="btn btn-secondary" href="/more-example?laraimportant">important message</inertia-link>
+            <inertia-link class="btn btn-secondary" href="/more-example?laramulti">multiple messages</inertia-link>
         </div>
     </Main>
 </template>
